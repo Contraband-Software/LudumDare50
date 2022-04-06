@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Living Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - AliveEnemy
+  - TransitioningEnemy
+  - DeadEnemy
+  - Wall
+  - Ground
+  - Player
+  - NoPost
+  - Compass
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1939404251
+    locked: 0
+  - name: Decoration
+    uniqueID: 3119371693
+    locked: 0
+  - name: Floor
+    uniqueID: 3972743347
+    locked: 0
+  - name: Walls
+    uniqueID: 3325151933
+    locked: 0
+  - name: LampBottoms
+    uniqueID: 2215165149
+    locked: 0
+  - name: Humans
+    uniqueID: 791062453
+    locked: 0
+  - name: Player
+    uniqueID: 878043313
+    locked: 0
+  - name: WallRoofs
+    uniqueID: 278652667
+    locked: 0
+  - name: LampTops
+    uniqueID: 1673748353
+    locked: 0
+  - name: Compass
+    uniqueID: 358218155
+    locked: 0
+  - name: UI
+    uniqueID: 3624066097
+    locked: 0
+  - name: Ghosts
+    uniqueID: 2254123637
+    locked: 0
