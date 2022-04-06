@@ -20,29 +20,58 @@ public class EnemySpawner : MonoBehaviour
     [Header("Important References")]
     public GameObject humansParentObject;
 
+    private bool initialMapPopulation = false;
+    private float tempTimeDelay;
+    private float tempMinSpawnDistance;
+
     // Start is called before the first frame update
     void Start()
     {
         startedEnemySpawn = false;
-        SpawnSurge();
+        initialMapPopulation = false;
+
+        tempTimeDelay = timeDelay;
+        tempMinSpawnDistance = minSpawnDistance;
+        //SpawnSurge();
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        SpawnCountdown();
+        if (!initialMapPopulation)
+        {
+            SpawnSurge();
+        }
+        else
+        {
+            SpawnCountdown();
+        }
     }
 
     //initially randomly place all the blokes
     private void SpawnSurge()
     {
-        while (shouldSpawnEnemy())
+
+        
+        if(shouldSpawnEnemy() && initialMapPopulation == false)
         {
-            SpawnEnemyClose();
+            timeDelay = 0f;
+            minSpawnDistance = 0f;
+            SpawnEnemy();
+            SpawnSurge();
+        }
+        if (!shouldSpawnEnemy())
+        {
+            minSpawnDistance = tempMinSpawnDistance;
+            timeDelay = tempTimeDelay;
+            initialMapPopulation = true;
         }
 
-        print("Spawned Enemies: " + humansParentObject.transform.childCount.ToString());
+       
+        
+
+        //print("Spawned Enemies: " + humansParentObject.transform.childCount.ToString());
     }
 
     public void SpawnCountdown()
@@ -57,7 +86,7 @@ public class EnemySpawner : MonoBehaviour
         {
             countdown -= Time.deltaTime;
 
-            if(countdown < 0f)
+            if(countdown <= 0f)
             {
                 SpawnEnemy();
                 startedEnemySpawn = false;

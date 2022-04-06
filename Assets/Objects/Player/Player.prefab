@@ -741,7 +741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6efc5bfbbc57cda4b9fe8287e6e5b889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Invincible: 0
+  Invincible: 1
   MaxHealth: 302
   KillHealthGain: 100
   HealthDecay: 5.2
