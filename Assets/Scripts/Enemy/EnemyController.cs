@@ -492,7 +492,6 @@ public class EnemyController : MonoBehaviour
             Vector2 positionDiff = pCon.transform.position - humanTransform.position;
             Vector2 direction = positionDiff.normalized;
             rb.velocity = direction * ghostMoveSpeed * Time.deltaTime;
-
         }
         else
         {
