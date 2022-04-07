@@ -132,12 +132,6 @@ public class EnemyController : MonoBehaviour
             CheckIfShouldPanic();
         }
 
-        //if its dead, it moves towards player without pathfinder
-        if(form == Form.Ghost)
-        {
-            MoveTowardsPlayerAsGhost();
-        }
-
         if (CurrentHitCoolDown > 0)
         {
             CurrentHitCoolDown -= Time.deltaTime;
@@ -176,6 +170,12 @@ public class EnemyController : MonoBehaviour
         if (form == Form.Ghost)
         {
             anim.Play("Ghost");
+        }
+
+        //if its dead, it moves towards player without pathfinder
+        if (form == Form.Ghost)
+        {
+            MoveTowardsPlayerAsGhost();
         }
     }
     private void CheckDamage()
