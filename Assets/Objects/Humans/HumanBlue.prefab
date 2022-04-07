@@ -90,7 +90,7 @@ MonoBehaviour:
   panicMoveSpeed: 7
   walkMoveSpeed: 3
   ghostSprite: {fileID: -604307706951404919, guid: 3efee44730e52d946be285d16e4ff533, type: 3}
-  ghostMoveSpeed: 92
+  ghostMoveSpeed: 205
   HitRange: 0.87
   groundOffset: 0.5
   HitCoolDown: 1
