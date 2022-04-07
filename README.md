@@ -5,4 +5,5 @@ The source code for our Ludum Dare 50 entry: Mortal Compass
 
 [Play it online here](https://sammot.itch.io/mortalcompass)
 
-The player object may still be set to invincible.
+### Dev Notes
+The player object may be set to invincible for testing
