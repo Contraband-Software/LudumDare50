@@ -698,11 +698,11 @@ MonoBehaviour:
   currentWorld: 1
   attackRadius: 1.05
   attackCooldownTime: 0.5
-  worldChangeCooldownTime: 1.2
+  worldChangeCooldownTime: 0.94
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
-  moveSpeed: 4
+  moveSpeed: 3.23
   BoxColliderComponent: {fileID: 0}
   RigidBodyComponent: {fileID: 2606422115826042142}
   AnimationControllerChild: {fileID: 535732374}
@@ -741,11 +741,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6efc5bfbbc57cda4b9fe8287e6e5b889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Invincible: 1
+  Invincible: 0
   MaxHealth: 302
   KillHealthGain: 100
   HealthDecay: 5.2
-  AliveWorldDecayMultiplier: 5.67
+  AliveWorldDecayMultiplier: 6.14
   HealthFillElement: {fileID: 0}
   HealthBarEndRegion: 0
   GameOverSceneName: GameOverScene
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreDisplayElement: {fileID: 0}
-  Multiplier: 1.66
+  Multiplier: 2.06
   Preface: 'Score: '
 --- !u!81 &229712709
 AudioListener:
@@ -787,8 +787,8 @@ MonoBehaviour:
   bottomLeftMap: {x: -40, y: -36}
   topRightMap: {x: 47, y: 24}
   minSpawnDistance: 18
-  maxEnemies: 30
-  timeDelay: 8
+  maxEnemies: 35
+  timeDelay: 6
   humans:
   - {fileID: 1191407244472873790, guid: 879dfa0bed13cf64a90bc0674711581a, type: 3}
   - {fileID: 8434340813713907161, guid: 6a11ce1a4cea99547a25ff1dff091133, type: 3}
