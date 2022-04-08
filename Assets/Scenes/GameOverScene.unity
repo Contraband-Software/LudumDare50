@@ -248,6 +248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UsePauseMenu: 0
   GamePauseMenu: {fileID: 0}
+  StopTime: 0
   MainMenuSceneName: StartScene
   GamePaused: 0
 --- !u!114 &705316555
@@ -263,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreDisplayElement: {fileID: 561863491}
-  Preface: 'Score: '
+  Preface: 'Time alive: '
 --- !u!1 &762194045
 GameObject:
   m_ObjectHideFlags: 0
