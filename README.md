@@ -3,6 +3,8 @@
 # Mortal Compass (Ludum Dare 50 Version)
 The source code for our Ludum Dare 50 entry: Mortal Compass
 
+Made in Unity 2020.3.18f1
+
 Made by [@Sammot](https://github.com/Sammot) and [@LAGJakub](https://github.com/LAGJakub)
 
 [Play it online here](https://sammot.itch.io/mortalcompass)
