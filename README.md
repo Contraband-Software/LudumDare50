@@ -24,11 +24,13 @@ Total Jam entries: 1922
 
 ## Game Leaflet
 
+![Title](https://user-images.githubusercontent.com/45080494/162202383-5ef50920-1629-4307-9597-c9a82e011d92.png)
+
 __An arcade game where you must survive by stealing lifeforce from the mortals of the realm of the living.__
 
 If the web player is laggy, download the executable for your system, it should perform better.
 
-### Description:
+### Description
 
  - You're a reaper and you're losing lifeforce,  so you must take it from the mortals of the realm of the living. But there is a catch, your life drains quicker from manifesting yourself in their reality - so you must use your compass to trace them before crossing over and harvesting their life force.
 
@@ -36,7 +38,7 @@ If the web player is laggy, download the executable for your system, it should p
 
  - The red arrow that appears around you in the realm of the dead (monochrome) is the compass that points to humans in the living world.
 
-### Controls:
+### Controls
  - Space to switch realms
  - Left click to smite
  - Escape to pause
@@ -46,7 +48,7 @@ If the web player is laggy, download the executable for your system, it should p
  - Improved WebGL performance and performance across all builds
  - Made the game easier, as requested, (more humans, slower ghosts)
 
-### Bugs (All fixed now):
+### Bugs (All fixed now)
  - [FIXED] Sometimes humans won't spawn for a game: this is fixed by pausing, exiting to the main menu and starting the game again; or restarting the program.
 
 <!-- ![Scr3.png](///raw/625/f3/z/4c4ac.png)![Scr4.png](///raw/625/f3/z/4c4b0.png) -->
