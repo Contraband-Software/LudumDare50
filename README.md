@@ -1,5 +1,5 @@
 # Mortal Compass (Ludum Dare 50 Version)
-The source code for our Ludum Dare 50 entry: Mortal Compass
+The source code for our [Ludum Dare 50 entry](https://ldjam.com/events/ludum-dare/50/mortal-compass/): Mortal Compass
 
 The theme was "Delay the inevitable"
 
