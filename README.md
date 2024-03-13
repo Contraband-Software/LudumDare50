@@ -11,14 +11,14 @@ Made by [@Sammot](https://github.com/Sammot) and [@LAGJakub](https://github.com/
 
 ## Placement
 
-Overall: 718th (3.513 average from 40 ratings)
-Fun: 903rd (3.184 average from 40 ratings)
-Innovation: 237th (3.757 average from 39 ratings)
-Theme: 229th (4.053 average from 40 ratings)
-Graphics: 397th (4 average from 40 ratings)
-Audio: 466th (3.5 average from 40 ratings)
-Humor: 871st (2.632 average from 36 ratings)
-Mood: 373rd (3.789 average from 40 ratings)
+- Overall: 718th (3.513 average from 40 ratings)
+- Fun: 903rd (3.184 average from 40 ratings)
+- Innovation: 237th (3.757 average from 39 ratings)
+- Theme: 229th (4.053 average from 40 ratings)
+- Graphics: 397th (4 average from 40 ratings)
+- Audio: 466th (3.5 average from 40 ratings)
+- Humor: 871st (2.632 average from 36 ratings)
+- Mood: 373rd (3.789 average from 40 ratings)
 
 Total Jam entries: 1922
 
